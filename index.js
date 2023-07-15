@@ -52,5 +52,5 @@ promptUserInput()
         console.log("Generated a new logo at 'logo.svg'")
     })
     .catch((error) => {
-        console.log("An Error has occured!: ", error)
+        console.log("An Error has occured!: ",)
     })
