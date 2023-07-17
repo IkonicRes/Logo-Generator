@@ -61,7 +61,7 @@ promptUserInput()
       userInput.shape,
       userInput.shapeColor
     );
-    return writeFileAsync('logo.svg', svgData);
+    return writeFileAsync('./examples/logo.svg', svgData);
   })
   .then(() => {
     console.log("Generated a new logo at 'logo.svg'");
@@ -69,3 +69,5 @@ promptUserInput()
   .catch((error) => {
     console.log("An Error has occurred!: ", error);
   });
+
+  module.exports = {generateLogo, writeFileAsync}
