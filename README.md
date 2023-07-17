@@ -20,19 +20,18 @@ I wanted to make an easy-to-use logo generator that uses inquirer to prompt the 
 Make sure to install node 16 lts and from the project directory run "npm install" in a terminal. This will install the necessary dependencies.
 
 ## Usage
-From the project root directory, type "node index.js" into a terminal and answer the following prompts. You may use hexadecimal or color name for each color choice.
+From the project root directory, type "node index.js" into a terminal and answer the following prompts. You may use hexadecimal or color name for each color choice. The resulting file will be saved to the project directory at /examples/logo.svg
 
 ## Contributing
 Be good and do code
 
 ## Testing
-Run npx jest from the project directory and the tests provided should run. Any further tests can be added with jest. For more information read the documentation at https://www.npmjs.com/package/jest
+Run "npx jest" from the project directory and the tests provided should run. Any further tests can be added with jest. For more information read the documentation at https://www.npmjs.com/package/jest
 
 
 ## Questions
-
 FAQ:
-Q: Omg this is the best basic shape generator I've ever seen, how did you do? A: Well I woke up, ate my Wheaties and spent a few hours doing the thing. (<== Clearly a dumb joke)
+Q: Omg this is the best basic shape generator I've ever seen, how did you do? A: Well I woke up, ate my Wheaties and spent a few hours doing the thing. (<== sorry, dumb joke)
 
 
 - GitHub Profile: [IkonicRes](https://github.com/IkonicRes)
@@ -40,9 +39,7 @@ Q: Omg this is the best basic shape generator I've ever seen, how did you do? A:
 - For additional questions, reach out to Ikonicresonance@gmail.com.
 
 ## Contact
-
 Preferred method of communication: Github
-
 
 
 ## License
