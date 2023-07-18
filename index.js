@@ -16,7 +16,7 @@ function promptUserInput() {
             message: "Enter your logo's text color as a keyword or hexadecimal number"
         },
         {
-            type: "checkbox",
+            type: "list",
             name: "shape",
             message: "Choose your logo's shape!",
             choices: ["circle", "triangle", "square"]
@@ -30,9 +30,9 @@ function promptUserInput() {
 }
 //This function generates the logo once the data has been collected.
 function generateLogo(text, textColor, shape, shapeColor){
-    //we declare a chosenShape, and turn the incoming shape var to a string instead of an array
+    //We declare a chosenShape, and turn the incoming shape var to a string instead of an array
     let chosenShape;
-    let shapeString = shape.join("")
+    let shapeString = shape.toString()
     //Then we switch on that string and create the proper object based on the case.
     switch (shapeString) {
         case "triangle":

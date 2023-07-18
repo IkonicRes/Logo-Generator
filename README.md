@@ -20,13 +20,13 @@ I wanted to make an easy-to-use logo generator that uses inquirer to prompt the 
 Make sure to install node 16 lts and from the project directory run "npm install" in a terminal. This will install the necessary dependencies.
 
 ## Usage
-From the project root directory, type "node index.js" into a terminal and answer the following prompts. You may use hexadecimal or color name for each color choice. The resulting file will be saved to the project directory at /examples/logo.svg
+From the project root directory, type "npm start" into a terminal and answer the following prompts. You may use hexadecimal or color name for each color choice. The resulting file will be saved to the project directory at /examples/logo.svg
 
 ## Contributing
 Be good and do code
 
 ## Testing
-Run "npx jest" from the project directory and the tests provided should run. Any further tests can be added with jest. For more information read the documentation at https://www.npmjs.com/package/jest
+Run "npm test" from the project directory and the tests provided should run. Any further tests can be added with jest. For more information read the documentation at https://www.npmjs.com/package/jest
 
 
 ## Questions

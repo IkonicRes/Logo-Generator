@@ -8,7 +8,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "console.log(\"test\")"
+    "test": "npx jest --runInBand --detectOpenHandles --forceExit",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
